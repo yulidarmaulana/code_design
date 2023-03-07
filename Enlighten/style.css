@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.layout-left {
+  width: 60%;
+  padding: 80px 140px;
+}
+
+.layout-right {
+  width: 40%;
+  background-image: url('/picture.png');
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 150px;
+  color: #0A1B59;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-buttom: 15px;
+  background: rgba(17, 63, 226, 0.1);
+  border-radius: 100px;
+  color: #113FE2;
+  font-weight: 700;
+  font-size: 14px;
+  text-tranform: uppercase;
+  letter-spacing: 2px;
+}
+
+.heading {
+  width: 500px;
+  font-size: 44px;
+  font-weight: 700;
+  margin-buttom: 15px;
+  color: #0A1B59;
+  line-height: 60px;
+}
+
+.lead {
+  width: 500px;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(10, 27, 89, 0.6);
+}
+
+.invite-form {
+  display: flex;
+  margin-top: 40px;
+}
+
+.invite-form input {
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(10, 27, 89, 0.2);
+  height: 52px;
+  margin-right: 20px;
+}
+
+.invite-form button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  flex-shrink: 0;
+  background-color: #113fe2;
+  color: #fff;
+}
+
+.form-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(10, 27, 89, 0.6);
+}
