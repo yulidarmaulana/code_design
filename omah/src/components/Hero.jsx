@@ -19,7 +19,10 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <img src={navbarbrand} className="max-w-full -ml-[20vw]" alt="hero" />
+
+      <div className="-ml-[20vw] rounded-md border-2 border-gray-100 bg-orange-500">
+      <img src={navbarbrand} className="object-cover w-full" alt="hero" />
+      </div>
 
       <div className="card bg-base-100 shadow-xl rounded-none -mt-[8vh]">
         <div className="card-body">
