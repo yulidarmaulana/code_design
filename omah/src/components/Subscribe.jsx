@@ -3,9 +3,8 @@ import "./Subscribe.css";
 export default function Subscribe() {
   return (
     <>
-    <div className="-mr-[160px] mb-32">
-
-    <div className=" border-2 border-gray-100 bg-orange-500 p-14">
+    <div className=" mb-32">
+    <div className="border-2 border-gray-100 bg-orange-500 p-14">
           <div className="flex flex-col items-center">
             
             <h3 className="mt-2 -ml-[10vw] max-w-xl text-white text-center text-xl font-normal leading-tight sm:text-3xl md:text-4xl md:leading-tight">
