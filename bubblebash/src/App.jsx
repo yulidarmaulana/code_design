@@ -3,8 +3,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav className="  dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="bg-primary dark:bg-gray-900">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 py-12">
           <a
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -96,18 +96,20 @@ function App() {
 
       {/* hero section */}
 
-      <section className="">
-        <div className="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-32">
-          <h1 className="mb-4 text-4xl font-semibold px-48 tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
-          Create Amazing Digital Product For Your Business
+      <section className="bg-primary">
+        <div className="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-24">
+          <h1 className="mb-4 text-4xl font-semibold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
+            Create Amazing Digital Product For Your Business
           </h1>
-          <p className="mb-8 text-sm font-normal text-light lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-          We are a professional digital agency that has been established since 2016, we present a variety of digital services that can help you solve problems in your business
+          <p className="mb-8 my-8 text-sm font-normal text-light md:text-lg lg:text-xl dark:text-gray-400">
+            We are a professional digital agency that has been established since
+            2016, we present a variety of digital services that can help you
+            solve problems in your business
           </p>
-          <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a
               href="#"
-              class="inline-flex justify-center items-center py-3 px-7 text-base font-medium text-dark  bg-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+              className="inline-flex justify-center items-center py-3 px-7 mb-48 text-base font-medium text-dark  bg-white hover:bg-dark hover:text-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
             >
               Get started
               <svg
@@ -126,10 +128,48 @@ function App() {
                 />
               </svg>
             </a>
-            
           </div>
         </div>
       </section>
+
+      <section className=" justify-center items-center">
+        <div className="absolute top-80 mt-64 lg:px-48 md:px-48">
+          <img src="/src/assets/photo-1.png" alt="" className="" />
+
+          <div className="grid grid-cols-4 auto-cols-max py-8">
+            <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+              <p className="text-2xl font-semibold text-dark-grey-900">1.2K+</p>
+              <p className="text-base leading-7 text-dark-grey-600">
+                Happy Clients
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+              <p className="text-2xl font-semibold text-dark-grey-900">1.1K+</p>
+              <p className="text-base leading-7 text-dark-grey-600">
+              WorldWide Clients
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+              <p className="text-2xl font-semibold text-dark-grey-900">6+</p>
+              <p className="text-base leading-7 text-dark-grey-600">
+              Years of Experience
+              </p>
+            </div>
+            
+            <div className="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+              <p className="text-2xl font-semibold text-dark-grey-900">12+</p>
+              <p className="text-base leading-7 text-dark-grey-600">
+                Award Winners
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    
     </>
   );
 }
