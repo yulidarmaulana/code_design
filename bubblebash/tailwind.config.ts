@@ -13,6 +13,7 @@ export default {
         'secondary': '#FFFFFF',
         'dark': '#2A2C3D',
         'light': '#D9D9D9',
+        'lighter' : '#F9F9F9',
       },
       fontFamily: {
         'sans': ['Open Sans', 'sans-serif'],
