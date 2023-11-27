@@ -1,3 +1,7 @@
+function cn(...cn) {
+  return cn.join(" ");
+}
+
 export default function Service() {
   return (
     <>
@@ -13,7 +17,12 @@ export default function Service() {
             id="frameworks-integration"
           >
             <a
-              class="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              className={cn(
+                "px-3 py-2",
+                "min-w-[7rem] max-w-[20rem]",
+                "hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25",
+                "grid mx-auto transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white  transition-all"
+              )}
               href="#"
             >
               <span className="my-6 grid h-24 w-24 place-items-center">
@@ -40,7 +49,13 @@ export default function Service() {
             </a>
 
             <a
-              class="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              className={cn(
+                "px-3 py-2",
+                "grid mx-auto min-w-[7rem] max-w-[20rem]",
+                "border-blue-gray-50 bg-white",
+                "hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25",
+                "transform cursor-pointer place-items-center rounded-xl border transition-all"
+              )}
               href="#"
             >
               <span className="my-6 grid h-24 w-24 place-items-center">
@@ -67,7 +82,12 @@ export default function Service() {
             </a>
 
             <a
-              class="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              className={cn(
+                "mx-auto px-3 py-2",
+                "min-w-[7rem] max-w-[20rem]",
+                "grid transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 transition-all ",
+                "bg-white hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              )}
               href="#"
             >
               <span className="my-6 grid h-24 w-24 place-items-center">
@@ -93,7 +113,7 @@ export default function Service() {
             </a>
 
             <a
-              class="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              className="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
               href="#"
             >
               <span className="my-6 grid h-24 w-24 place-items-center">
@@ -118,12 +138,12 @@ export default function Service() {
             </a>
 
             <a
-              class="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              className="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
               href="#"
             >
-              <span class="my-6 grid h-24 w-24 place-items-center">
+              <span className="my-6 grid h-24 w-24 place-items-center">
                 <svg
-                  class="mx-auto"
+                  className="mx-auto"
                   viewBox="0 0 40 40"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -145,12 +165,17 @@ export default function Service() {
             </a>
 
             <a
-              class="grid mx-auto min-w-[7rem] max-w-[20rem] transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 bg-white px-3 py-2 transition-all hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25"
+              className={cn(
+                "px-3 py-2",
+                "bg-white hover:scale-105 hover:border-blue-gray-100 hover:bg-blue-gray-50 hover:bg-opacity-25",
+                "mx-auto min-w-[7rem] max-w-[20rem]",
+                "grid transform cursor-pointer place-items-center rounded-xl border border-blue-gray-50 transition-all"
+              )}
               href="#"
             >
-              <span class="my-6 grid h-24 w-24 place-items-center">
+              <span className="my-6 grid h-24 w-24 place-items-center">
                 <svg
-                  class="mx-auto"
+                  className="mx-auto"
                   viewBox="0 0 40 40"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
